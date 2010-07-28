@@ -1,0 +1,31 @@
+#wp-admin-bar li#bp-adminbar-authors-menu {
+  position: absolute;
+  right: 0;
+}
+#wp-admin-bar li#bp-adminbar-authors-menu:hover ul {
+  right: 0;
+}
+
+#wp-admin-bar {
+  font-family: Arial;
+  display:block !important;
+}
+
+#admin-bar-logo {
+  background: url(/wp-content/plugins/skule_network/images/hardhat.png) left center no-repeat;
+  text-indent: 20px;
+  padding: 0;
+  height: 25px;
+  margin: 0 5px;
+  font-size: 11px;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+body {
+  margin-top: 25px;
+}
+
+a[href $='.pdf'] { 
+   padding-left: 20px;
+   background: transparent url(/wp-content/plugins/skule_network/images/pdf_icon.gif) no-repeat center left;
+}
