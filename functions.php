@@ -3,7 +3,7 @@
 Plugin Name: Skule Network
 Plugin URI: http://sws.skule.ca/
 Description: Plugin included by all Skule Network blogs.
-Version: 0.1
+Version: 0.15
 Author: Rafal Dittwald
 Author URI: http://sws.skule.ca/
 License: MIT
