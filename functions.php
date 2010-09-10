@@ -89,4 +89,27 @@ if ( is_array( $blogs['blogs'] ) && (int)$blogs['count'] ) {
 }
 
 
+
+add_filter('upload_mimes', 'custom_upload_mimes');
+
+function custom_upload_mimes ( $existing_mimes=array() ) {
+ 
+$existing_mimes['doc'] = 'application/msword';
+$existing_mimes['xls'] = 'application/msexcel';
+$existing_mimes['ppt'] = 'application/mspowerpoint';
+$existing_mimes['pdf'] = 'application/pdf';
+$existing_mimes['mp3'] = 'audio/x-mpeg';
+$existing_mimes['mov'] = 'video/quicktime';
+$existing_mimes['wav'] = 'audio/x-wav';
+$existing_mimes['avi'] = 'video/msvideo';
+$existing_mimes['mpeg'] = 'video/mpeg';
+$existing_mimes['docx'] = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+$existing_mimes['xlsx'] = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+$existing_mimes['pptx'] = 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
+$existing_mimies['bmp'] = 'image/bmp';
+  
+return $existing_mimes;
+ 
+}
+
 ?>
