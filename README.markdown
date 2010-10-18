@@ -16,3 +16,4 @@ You should know:
 Developers
 ----------
   *   Rafal Dittwald (active)
+  *   Ritchie Thai (active)
